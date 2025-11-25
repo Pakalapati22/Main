@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FiEdit2, FiPlus, FiX } from 'react-icons/fi';
-import type { ResumeData } from '@/store/portfolioStore';
+import type { ResumeData } from '../store/portfolioStore';
 
 interface PortfolioPreviewProps {
   initialData: ResumeData;
